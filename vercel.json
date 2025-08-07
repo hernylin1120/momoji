@@ -1,8 +1,13 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/api/redirect.js"
-      }
-    ]
-  }
+  "functions": {
+    "api/redirect.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/redirect.js"
+    }
+  ]
+}
