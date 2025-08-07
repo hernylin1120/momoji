@@ -4,5 +4,10 @@
       "source": "/(.*)",
       "destination": "/api/redirect.js"
     }
-  ]
+  ],
+  "functions": {
+    "api/redirect.js": {
+      "maxDuration": 10
+    }
+  }
 }
