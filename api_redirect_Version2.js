@@ -13,5 +13,5 @@ export default function handler(request) {
   }
   
   // Default to web version for desktop/other devices
-  return Response.redirect('https://your-web-app.com', 302);
+  return Response.redirect('https://editor.talecrafter.ai/', 302);
 }

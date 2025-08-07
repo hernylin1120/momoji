@@ -1,13 +1,13 @@
 {
-  "functions": {
-    "api/redirect.js": {
-      "runtime": "edge"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/redirect"
-    }
-  ]
-}
+    "functions": {
+      "api/redirect.js": {
+        "runtime": "edge"
+      }
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/api/redirect"
+      }
+    ]
+  }
