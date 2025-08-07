@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/redirect.js": {
-      "runtime": "edge@1.0.0"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
